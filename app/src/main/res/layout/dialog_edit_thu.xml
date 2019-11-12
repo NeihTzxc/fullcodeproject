@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:orientation="horizontal"
+        android:background="#5EF4B536">
+
+        <ImageView
+            android:layout_width="200px"
+            android:layout_height="match_parent"
+            android:src="@drawable/edit1"
+            />
+        <TextView
+            android:id="@+id/select_danhmuc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chọn danh mục"
+            android:textSize="80px"
+            android:textColor="#4CAF50"
+            android:gravity="center"
+            android:layout_gravity="center"/>
+        <ImageView
+
+            android:layout_marginLeft="20px"
+            android:layout_width="50px"
+            android:layout_height="50px"
+            android:src="@drawable/popup5"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:src="@drawable/title"
+            android:layout_gravity="center"
+            />
+        <EditText
+            android:id="@+id/add_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập mô tả"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:src="@drawable/date"
+            android:layout_gravity="center"
+            />
+        <EditText
+            android:id="@+id/add_date"
+            android:layout_width="600px"
+            android:layout_height="wrap_content"
+            android:hint="Nhập ngày"/>
+        <ImageView
+            android:id="@+id/calendar"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:src="@drawable/calendar"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:src="@drawable/price"
+            android:layout_gravity="center"
+            />
+        <EditText
+            android:id="@+id/add_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập tiền"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180px"
+        android:orientation="horizontal"
+        android:background="#3B009688"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center">
+            <Button
+                android:id="@+id/btn_huy"
+                android:layout_width="60dp"
+                android:layout_height="26dp"
+                android:background="#2FA715"
+                android:text="Hủy"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/btn_ok"
+                android:layout_width="60dp"
+                android:layout_height="26dp"
+                android:layout_marginLeft="100px"
+                android:background="#2FA715"
+                android:text="OK"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

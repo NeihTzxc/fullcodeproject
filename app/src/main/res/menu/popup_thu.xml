@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/thunhapchinh"
+        android:title="Thu nhập chính" />
+
+    <item
+        android:id="@+id/lamthem"
+        android:title="Làm thêm" />
+
+    <item
+        android:id="@+id/buonban"
+        android:title="Buôn bán" />
+    <item
+        android:id="@+id/quatang"
+        android:title="Quà tặng" />
+    <item
+        android:id="@+id/soso"
+        android:title="Sổ số" />
+</menu>
